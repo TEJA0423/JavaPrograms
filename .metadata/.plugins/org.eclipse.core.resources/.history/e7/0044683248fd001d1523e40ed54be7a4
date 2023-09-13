@@ -1,0 +1,19 @@
+package first_project;
+Import packaage.
+public class DotOperators {
+
+	public static void main(String[] args) {
+		
+	Employee e = new Employee();
+	  
+	  if(e instanceof Employee) {
+		  System.out.println("yes it's true value");
+	  }
+//	  else {
+//		  System.out.println("Sorry it's not correct value");
+//	  }
+	  
+
+	}
+
+}

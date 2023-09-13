@@ -1,0 +1,36 @@
+package MethodsPrgrams;
+
+public class SampleMethod {
+	
+	public static void main(String[] args) {
+		SampleMethod d = new SampleMethod();
+
+		//read id from keyboard
+
+		Person person = d.m1(120);
+		System.out.println(person.id + "--" + person.name + person.age);
+	}
+
+	Person m1(int id) {
+		Person p = new Person();
+		if (id == 101) {
+			p.id = 101;
+			p.name = "Raju";
+			p.age = 30;
+		} else if (id == 102) {
+			p.id = 102;
+			p.name = "Rani";
+			p.age = 32;
+		}
+		return p;
+	}
+}
+
+class Person {
+	int id;
+	String name;
+	int age;
+}
+
+
+

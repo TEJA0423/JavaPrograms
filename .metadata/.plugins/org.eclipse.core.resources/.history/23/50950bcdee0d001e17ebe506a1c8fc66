@@ -1,0 +1,41 @@
+package MethodsPrgrams;
+
+public class SampleMethod {
+	
+	public static void main(String[] args) {
+		
+		// Write a java method which will take id as input. 
+		// if id is 101 then method should return Raju object
+		// if id is 102 then method should return Rani object.	
+		
+		SampleMethod d = new SampleMethod();
+
+		//read id from keyboard
+
+		Person person = d.m1(102);
+		System.out.println(person.id + "----" + person.name +"----" + person.age);
+	}
+
+	Person m1(int id) {
+		Person p = new Person();
+		if (id == 101 || id ==102) {
+			p.id = 101;
+			p.name = "Ramu";
+			p.age = 30;
+		} else if (id >= 103) {
+			p.id = 103;
+			p.name = "Teju";
+			p.age = 23;
+		}
+		return p;
+	}
+}
+
+class Person {
+	int id;
+	String name;
+	int age;
+}
+
+
+

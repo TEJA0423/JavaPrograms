@@ -1,0 +1,30 @@
+package com.accessModifiers;
+
+class Address{
+	String houseNumber;
+	String streat;
+	String location;
+	
+    Address(String houseNumber,String streat,String location){
+			
+    this.houseNumber=houseNumber;
+	this.location=location;
+	this.streat=streat;
+	
+	}
+}
+public class Person {
+	
+	Address adds = new Address("65-4-165","gajuwaka","vizag");
+    int empId=101;
+    String name = "Ramu";
+    
+	public static void main(String[] args) {
+		 Person P = new Person();
+		 P.adds();
+	}
+private void adds() {
+	System.out.printf(name+","+empId);
+}
+
+}

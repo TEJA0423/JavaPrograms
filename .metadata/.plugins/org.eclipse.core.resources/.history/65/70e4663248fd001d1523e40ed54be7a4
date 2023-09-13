@@ -1,0 +1,19 @@
+package first_project;
+
+public class DotOperators {
+
+	public static void main(String[] args) {
+		
+	  String str = "all";
+	  
+	  if(str instanceof String) {
+		  System.out.println("yes it's true value");
+	  
+//	  else {
+//		  System.out.println("Sorry it's not correct value");
+//	  }
+	  
+
+	}
+
+}

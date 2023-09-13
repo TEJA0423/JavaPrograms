@@ -1,0 +1,30 @@
+package com.collections;
+
+import java.util.*;
+
+public class CompareArrayList {
+
+	public static void main(String[] args) {
+	
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("Apple");
+		al.add("Banana");
+		al.add("Cat");
+		al.add("Dog");
+		System.out.println("ArrayList first array : "+al);
+		
+		ArrayList<String> al2 = new ArrayList<String>();
+		al2.add("Anil");
+		al2.add("Bhavani");
+		al2.add("Chaithanya");
+		al2.add("Durga");
+		System.out.println("ArrayList second array : "+ al2);
+		
+		if(al.equals(al2)) {
+			System.out.println("Arraylist1 and ArrayList2 both are equal ");
+		}else {
+			System.out.println("Arraylist1 and ArrayList2 both are not equal ");
+		}
+	}
+
+}
